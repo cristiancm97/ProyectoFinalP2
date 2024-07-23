@@ -1,0 +1,2 @@
+Para iniciar el servidor usar el comando 
+npx json-server --watch db.json
