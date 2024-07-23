@@ -17,6 +17,51 @@
       "email": "joseaguirre@hotmail.com",
       "usuario": "JoseAguirre",
       "contrasena": "12345"
+    },
+    {
+      "id": "8095",
+      "nombre": "Jose",
+      "apellido": "Aguirre",
+      "telefono": "38163244235",
+      "email": "joseaguirre@hotmail.com",
+      "usuario": "JoseAguirre",
+      "contrasena": "12345"
+    },
+    {
+      "id": "8096",
+      "nombre": "Maria",
+      "apellido": "Fernandez",
+      "telefono": "38263452468",
+      "email": "mariafernandez@gmail.com",
+      "usuario": "MariaF",
+      "contrasena": "password123"
+    },
+    {
+      "id": "8097",
+      "nombre": "Pedro",
+      "apellido": "Gonzalez",
+      "telefono": "38199887766",
+      "email": "pedrogonzalez@yahoo.com",
+      "usuario": "PedroG",
+      "contrasena": "qwertyuiop"
+    },
+    {
+      "id": "8098",
+      "nombre": "Ana",
+      "apellido": "Lopez",
+      "telefono": "38124567890",
+      "email": "analopes@outlook.com",
+      "usuario": "AnaLopez",
+      "contrasena": "abcde12345"
+    },
+    {
+      "id": "8099",
+      "nombre": "Luis",
+      "apellido": "Martinez",
+      "telefono": "38145678901",
+      "email": "luismartinez@gmail.com",
+      "usuario": "LuisM",
+      "contrasena": "mypassword"
     }
   ],
   "books": [

@@ -82,7 +82,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
       users.forEach(user => {
           var li = document.createElement('li');
-          li.textContent = `${user.nombre} ${user.apellido} - Teléfono: ${user.telefono} - Email: ${user.email} - Usuario: ${user.usuario}`;
+          li.textContent = `${user.nombre} ${user.apellido} | Teléfono: ${user.telefono} | Email: ${user.email} | Usuario: ${user.usuario}`;
           
           // Crear contenedor para los botones
           var actions = document.createElement('div');
