@@ -1,75 +1,85 @@
 {
   "users": [
-      {
-        "id": "0001",
-        "nombre": "Cristian Alejandro",
-        "apellido": "Cruz Mendieta",
-        "telefono": "3814523523",
-        "email": "crustafa@hotmail.com",
-        "usuario": "admin",
-        "contrasena": "123",
-        "role": "admin"
-      },
-      {
-        "id": "b2ae",
-        "nombre": "Cristian Alejandro",
-        "apellido": "Cruz Mendieta",
-        "telefono": "3814523523",
-        "email": "crustafa@hotmail.com",
-        "usuario": "cristiancm97",
-        "contrasena": "hola",
-        "role": "empleado"
-      },
-      {
-        "id": "8095",
-        "nombre": "Jose",
-        "apellido": "Aguirre",
-        "telefono": "38163244235",
-        "email": "joseaguirre@hotmail.com",
-        "usuario": "JoseAguirre",
-        "contrasena": "12345",
-        "role": "empleado"
-      },
-      {
-        "id": "8096",
-        "nombre": "Maria",
-        "apellido": "Fernandez",
-        "telefono": "38263452468",
-        "email": "mariafernandez@gmail.com",
-        "usuario": "MariaF",
-        "contrasena": "password123",
-        "role": "empleado"
-      },
-      {
-        "id": "8097",
-        "nombre": "Pedro",
-        "apellido": "Gonzalez",
-        "telefono": "38199887766",
-        "email": "pedrogonzalez@yahoo.com",
-        "usuario": "PedroG",
-        "contrasena": "qwertyuiop",
-        "role": "empleado"
-      },
-      {
-        "id": "8098",
-        "nombre": "Ana",
-        "apellido": "Lopez",
-        "telefono": "38124567890",
-        "email": "analopes@outlook.com",
-        "usuario": "AnaLopez",
-        "contrasena": "abcde12345",
-        "role": "empleado"
-      },
-      {
-        "id": "8099",
-        "nombre": "Luis",
-        "apellido": "Martinez",
-        "telefono": "38145678901",
-        "email": "luismartinez@gmail.com",
-        "usuario": "LuisM",
-        "contrasena": "mypassword",
-        "role": "empleado"
-      }  
+    {
+      "id": "0001",
+      "nombre": "Cristian Alejandro",
+      "apellido": "Cruz Mendieta",
+      "telefono": "3814523523",
+      "email": "crustafa@hotmail.com",
+      "usuario": "admin",
+      "contrasena": "123",
+      "role": "admin"
+    },
+    {
+      "id": "b2ae",
+      "nombre": "Cristian Alejandro",
+      "apellido": "Cruz Mendieta",
+      "telefono": "3814523523",
+      "email": "crustafa@hotmail.com",
+      "usuario": "cristiancm97",
+      "contrasena": "hola",
+      "role": "empleado"
+    },
+    {
+      "id": "8095",
+      "nombre": "Jose",
+      "apellido": "Aguirre",
+      "telefono": "38163244235",
+      "email": "joseaguirre@hotmail.com",
+      "usuario": "JoseAguirre",
+      "contrasena": "12345",
+      "role": "empleado"
+    },
+    {
+      "id": "8096",
+      "nombre": "Maria",
+      "apellido": "Fernandez",
+      "telefono": "38263452468",
+      "email": "mariafernandez@gmail.com",
+      "usuario": "MariaF",
+      "contrasena": "password123",
+      "role": "empleado"
+    },
+    {
+      "id": "8097",
+      "nombre": "Pedro",
+      "apellido": "Gonzalez",
+      "telefono": "38199887766",
+      "email": "pedrogonzalez@yahoo.com",
+      "usuario": "PedroG",
+      "contrasena": "qwertyuiop",
+      "role": "empleado"
+    },
+    {
+      "id": "8098",
+      "nombre": "Ana",
+      "apellido": "Lopez",
+      "telefono": "38124567890",
+      "email": "analopes@outlook.com",
+      "usuario": "AnaLopez",
+      "contrasena": "abcde12345",
+      "role": "empleado"
+    },
+    {
+      "id": "8099",
+      "nombre": "Luis",
+      "apellido": "Martinez",
+      "telefono": "38145678901",
+      "email": "luismartinez@gmail.com",
+      "usuario": "LuisM",
+      "contrasena": "mypassword",
+      "role": "empleado"
+    },
+    {
+      "id": "0085",
+      "nombre": "Carlos",
+      "apellido": "Suarez",
+      "telefono": "38163244235",
+      "email": "Carlos@suarez.com",
+      "usuario": "CarlosS12",
+      "contrasena": "123",
+      "role": "empleado"
+    }
   ],
   "books": [
     {
@@ -85,6 +95,48 @@
       "autor": "un nuevo libro",
       "anio": "2024",
       "genero": "biografia"
+    },
+    {
+      "id": "4a3e",
+      "titulo": "Harry Potter",
+      "autor": "J K Rowling",
+      "anio": "1990",
+      "genero": "fantasia"
+    },
+    {
+      "id": "5b9c",
+      "titulo": "El señor de los anillos",
+      "autor": "J.R.R. Tolkien",
+      "anio": "1954",
+      "genero": "fantasia"
+    },
+    {
+      "id": "2f6a",
+      "titulo": "Cien años de soledad",
+      "autor": "Gabriel García Márquez",
+      "anio": "1967",
+      "genero": "realismo mágico"
+    },
+    {
+      "id": "3e7b",
+      "titulo": "1984",
+      "autor": "George Orwell",
+      "anio": "1949",
+      "genero": "distopia"
+    },
+    {
+      "id": "8c9d",
+      "titulo": "El gran Gatsby",
+      "autor": "F. Scott Fitzgerald",
+      "anio": "1925",
+      "genero": "novela"
+    },
+    {
+      "id": "7d8e",
+      "titulo": "Orgullo y prejuicio",
+      "autor": "Jane Austen",
+      "anio": "1813",
+      "genero": "romance"
     }
   ]
 }

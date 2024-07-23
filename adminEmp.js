@@ -21,7 +21,8 @@ document.addEventListener('DOMContentLoaded', function() {
           telefono: telefono,
           email: email,
           usuario: usuario,
-          contrasena: contrasena
+          contrasena: contrasena,
+          role: "empleado"
       };
 
       // Llamar a la función para enviar el objeto user
@@ -182,10 +183,15 @@ document.addEventListener('DOMContentLoaded', function() {
       });
   }
 
-  document.getElementById('logout-panelAdmin').addEventListener('click', function() {
-      window.location.href = 'login.html';
-      alert("Sesión cerrada");
-  });
 });
 
+
+document.getElementById('menuButton').addEventListener('click', function() {
+    window.location.href = 'menuAdmin.html';
+});
+
+document.getElementById('logoutButton').addEventListener('click', function() {
+    window.location.href = 'login.html';
+    alert("Sesión cerrada");
+});
 

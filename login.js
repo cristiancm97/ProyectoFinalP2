@@ -28,7 +28,7 @@ function verificarUser(username, password) {
                     alert('Rol de usuario desconocido');
                 }
             } else {
-                alert('Usuario inválido');
+                alert('Usuario y/o contraseña incorrectos');
             }
         })
         .catch(error => {

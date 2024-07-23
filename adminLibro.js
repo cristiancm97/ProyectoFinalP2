@@ -167,9 +167,14 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Error:', error);
         });
     }
+    
+});
 
-    document.getElementById('btnLogout').addEventListener('click', function() {
-        window.location.href = 'login.html';
-        alert("Sesión cerrada");
-    });
+document.getElementById('menuButton').addEventListener('click', function() {
+    window.location.href = 'menuAdmin.html';
+});
+
+document.getElementById('logoutButton').addEventListener('click', function() {
+    window.location.href = 'login.html';
+    alert("Sesión cerrada");
 });
