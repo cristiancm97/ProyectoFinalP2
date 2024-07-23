@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../imagenes/FONDO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.cuadro-login {
+    background-color: #D67505;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.5);
+    width: 500px;
+    height: 380px;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.cuadro-login h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.cuadro-login label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.cuadro-login input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.cuadro-login button {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 40px;
+    background-color: white;
+    color: #D67505;
+    border: 2px solid #D67505;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.cuadro-login button:hover {
+    background-color: #D67505;
+    color: white;
+    border: 2px solid white;
+}
+

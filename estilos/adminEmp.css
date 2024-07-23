@@ -1,0 +1,149 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-panelAdmin{
+    width: 100%;
+    height: 150px;
+    background-color: #D67505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: white
+}
+
+.contenedor-form-panelAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-empleado {
+    background-color: #D67505;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    text-align: center;
+    border: 2px solid white;
+}
+
+.formulario-empleado h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.formulario-empleado label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.formulario-empleado input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario-empleado button {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: #D67505;
+    border: 2px solid #D67505;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.formulario-empleado button:hover {
+    background-color: #D67505;
+    color: white;
+    border: 2px solid white;
+}
+
+
+/* Estilos para la lista de empleados */
+.lista-empleados {
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    border: 2px solid black;
+    border-radius: 30px;
+}
+
+.lista-empleados ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-empleados li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-empleados .user-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.lista-empleados button {
+    background-color: #D67505;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.lista-empleados button:hover {
+    background-color: #a04a01;
+}
+
+
+
+.logout-panelAdmin{
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #D67505;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.logout-panelAdmin:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.7) ;
+    transition: all 300ms ease;
+}

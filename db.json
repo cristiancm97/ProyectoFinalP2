@@ -1,28 +1,38 @@
 {
+  "users": [
+    {
+      "nombre": "Cristian Alejandro",
+      "apellido": "Cruz Mendieta",
+      "telefono": "3814523523",
+      "email": "crustafa@hotmail.com",
+      "usuario": "cristiancm97",
+      "contrasena": "hola",
+      "id": "b2ae"
+    },
+    {
+      "id": "8095",
+      "nombre": "Jose",
+      "apellido": "Aguirre",
+      "telefono": "38163244235",
+      "email": "joseaguirre@hotmail.com",
+      "usuario": "JoseAguirre",
+      "contrasena": "12345"
+    }
+  ],
   "books": [
     {
-      "id": "1",
-      "title": "El Quijote DE LA MANCHA",
-      "author": "Miguel de Cervantes",
-      "year": "1605"
+      "id": "9fe8",
+      "titulo": "adad",
+      "autor": "asda",
+      "anio": "21312",
+      "genero": "no-ficcion"
     },
     {
-      "id": "2",
-      "title": "Cien Años de Soledad",
-      "author": "Gabriel García Márquez",
-      "year": 1967
-    },
-    {
-      "id": "7793",
-      "title": "asdadas",
-      "author": "asdadasdads123",
-      "year": "324243"
-    },
-    {
-      "id": "7611",
-      "title": "JKGKGK",
-      "author": "JGFJHGFH",
-      "year": "3635"
+      "id": "d6da",
+      "titulo": "hola soy",
+      "autor": "un nuevo libro",
+      "anio": "2024",
+      "genero": "biografia"
     }
   ]
 }

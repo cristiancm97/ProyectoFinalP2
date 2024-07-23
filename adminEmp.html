@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADMIN - Empleado</title>
+    <link rel="stylesheet" href="estilos/adminEmp.css">
+</head>
+<body>
+    <header class="header-panelAdmin">
+        <h1 class="titulo-panelAdmin">Bienvenido a la plantilla de empleados</h2>
+    </header>
+
+    <div class="lista-empleados">
+        <h2>Lista de Empleados</h2>
+        <ul id="users-list"></ul>
+    </div>
+    
+    <div class="contenedor-form-panelAdmin">
+        <div class="formulario-empleado">
+            <h2>Agregar Empleado</h2>
+            <form id="form-panelAdmin-empleado">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+    
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" required>
+    
+                <label for="telefono">Número de Teléfono:</label>
+                <input type="tel" id="telefono" name="telefono" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="usuario">Usuario:</label>
+                <input type="text" id="usuario" name="usuario" required>
+    
+                <label for="contrasena">Contraseña:</label>
+                <input type="password" id="contrasena" name="contrasena" required>
+    
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </div>
+    <div class="logout-panelAdmin" id="logout-panelAdmin">
+        Logout
+    </div>
+    <script src="adminEmp.js"></script>
+</body>
+</html>

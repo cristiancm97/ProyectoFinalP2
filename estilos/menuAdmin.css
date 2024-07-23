@@ -1,0 +1,108 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.contenedor-menuAdmin{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../imagenes/FONDO.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contenedor-titulo-menuAdmin{
+    width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-menuAdmin{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px 30px;
+    border-radius: 30px;
+    background-color: #D67505;
+    color: white;
+    border: 2px solid white;
+}
+
+.grid-menuAdmin {
+    width: 100%;
+    height: calc(100vh - 200px);
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-menuAdmin>* {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-menuAdmin{
+    width: 400px;
+    height: 500px;
+    border: 3px solid white;
+    border-radius:30px;
+    background-color: #D67505;
+}
+
+.card-menuAdmin:hover{
+    box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.5) ;
+    scale: 1.05;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+
+.img-card-menuAdmin{
+    width: 400px;
+    height: 400px;
+}
+
+#img-menuAdmin-1{
+    background-image: url(../imagenes/EMPLEADO.png);
+    border-radius: 30px; 
+}
+
+#img-menuAdmin-2{
+    background-image: url(../imagenes/LIBRO.png);
+    border-radius: 30px; 
+}
+
+.contenedor-titulo-card-menuAdmin{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logout-menuAdmin{
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #D67505;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.logout-menuAdmin:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.7) ;
+    transition: all 300ms ease;
+}

@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-panelAdmin{
+    width: 100%;
+    height: 150px;
+    background-color: #D67505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: white
+}
+
+.contenedor-form-panelAdmin{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario-libro {
+    background-color: #D67505;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.5);
+    width: 70%;
+    text-align: center;
+    border: 2px solid white;
+    margin: 70px 0px;
+}
+
+.formulario-libro h2 {
+    margin-bottom: 20px;
+    color: white;
+    font-size: 40px;
+}
+
+.formulario-libro label {
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    color: white;
+    font-size: 20px;
+}
+
+.formulario-libro input, .formulario-libro select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario-libro button {
+    width: 80%;
+    height: 50px;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: white;
+    color: #D67505;
+    border: 2px solid #D67505;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: background-color 0.3s, color 0.3s, border 0.3s;
+}
+
+.formulario-libro button:hover {
+    background-color: #D67505;
+    color: white;
+    border: 2px solid white;
+}
+
+/* Estilo para el contenedor de libros */
+#books-container {
+    background-color: #D67505; /* Mismo color de fondo que el cuadro-login */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2); /* Misma sombra que el cuadro-login */
+    width: 80%; /* Ancho similar al cuadro-login */
+    margin: 20px auto; /* Centrado horizontal */
+}
+
+/* Estilo para el título de la lista de libros */
+#books-container h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Estilo para la lista de libros */
+#books-list {
+    list-style-type: none; /* Quitar los puntos de la lista */
+    padding: 0;
+    margin: 0;
+}
+
+/* Estilo para cada ítem de la lista */
+#books-list li {
+    background-color: #fff;
+    color: #D67505;
+    padding: 10px;
+    border: 1px solid #D67505;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Estilo para los botones dentro de cada ítem de la lista */
+.book-actions {
+    margin-top: 10px;
+    display: flex;
+    justify-content: end;
+}
+
+.book-actions button {
+    background-color: #fff;
+    color: #D67505;
+    border: 1px solid #D67505;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.book-actions button:hover {
+    background-color: #D67505;
+    color: white;
+}
+
+
+.logout-panelAdmin{
+    width: 100px;
+    height: 40px;
+    border: 2px solid white;
+    background-color: #D67505;
+    border-radius: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.logout-panelAdmin:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.7) ;
+    transition: all 300ms ease;
+}
