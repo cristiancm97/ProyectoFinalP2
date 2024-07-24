@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.header-panelAdmin{
+    width: 100%;
+    height: 150px;
+    background-color: #D67505;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+    color: white
+}
+
+/* Estilos para el formulario de autor */
+.formulario-genero {
+    width: 70%;
+    margin: 70px auto;
+    padding: 20px;
+    border: 1px solid #D67505;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.2);
+}
+
+.formulario-genero h2 {
+    text-align: center;
+    color: #D67505;
+}
+
+.formulario-genero label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+}
+
+.formulario-genero input[type="text"],
+.formulario-genero input[type="date"],
+.formulario-genero textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.formulario-genero textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.formulario-genero button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #D67505;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.formulario-genero button[type="submit"]:hover {
+    background-color: #B95A04;
+}
+
+
+/* Estilos para la lista de generos */
+.lista-generos {
+    width: 80%;
+    margin: 20px auto;
+    padding: 40px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.lista-generos ul {
+    list-style: none;
+    padding: 0;
+}
+
+.lista-generos li {
+    background-color: white;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lista-generos .genre-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.lista-generos button {
+    background-color: #D67505;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.lista-generos button:hover {
+    background-color: #a04a01;
+}
+
+
+/* Estilos generales para el botón Menu */
+.btn-menu {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #D67505; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 2px solid #D67505; /* Borde del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor de puntero */
+    text-align: center; /* Alinear el texto al centro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del botón */
+}
+
+/* Estilo para el botón Menu al pasar el mouse por encima */
+.btn-menu:hover {
+    background-color: white;
+    color: #D67505;
+    border: 2px solid white;
+}
+
+/* Estilos generales para el botón Logout */
+.btn-logout {
+    position: fixed;
+    bottom: 30px;
+    right: 30px; /* Ajustado para estar en la esquina inferior derecha */
+    background-color: #D67505; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 2px solid #D67505; /* Borde del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor de puntero */
+    text-align: center; /* Alinear el texto al centro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del botón */
+}
+
+/* Estilo para el botón Logout al pasar el mouse por encima */
+.btn-logout:hover {
+    background-color: white;
+    color: #D67505;
+    border: 2px solid white;
+}

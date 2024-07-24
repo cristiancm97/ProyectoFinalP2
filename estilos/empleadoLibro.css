@@ -8,7 +8,7 @@ body {
 
 }
 
-.header-panelEmp{
+.header-panelAdmin{
     width: 100%;
     height: 150px;
     background-color: #D67505;
@@ -19,7 +19,7 @@ body {
     color: white
 }
 
-.contenedor-form-panelEmpleado{
+.contenedor-form-panelAdmin{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -33,7 +33,7 @@ body {
     width: 70%;
     text-align: center;
     border: 2px solid white;
-    margin: 50px 0px;
+    margin: 70px 0px;
 }
 
 .formulario-libro h2 {
@@ -78,25 +78,6 @@ body {
     color: white;
     border: 2px solid white;
 }
-
-.logout-panelEmp{
-    width: 100px;
-    height: 40px;
-    border: 2px solid white;
-    background-color: #D67505;
-    border-radius: 30px;
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
-}
-
-
 
 /* Estilo para el contenedor de libros */
 #books-container {
@@ -157,9 +138,50 @@ body {
 }
 
 
+/* Estilos generales para el botón Logout */
+.btn-logout {
+    position: fixed;
+    bottom: 30px;
+    right: 30px; /* Ajustado para estar en la esquina inferior derecha */
+    background-color: #D67505; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 2px solid #D67505; /* Borde del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor de puntero */
+    text-align: center; /* Alinear el texto al centro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del botón */
+}
 
-.logout-panelEmp:hover{
-    cursor: pointer;
-    box-shadow: 0px 0px 2px 2px rgb(0, 0, 0, 0.7) ;
-    transition: all 300ms ease;
+/* Estilo para el botón al pasar el mouse por encima */
+.btn-logout:hover {
+    background-color: white;
+    color: #D67505;
+    border: 2px solid white;
+}
+
+
+
+/* Estilos generales para el botón */
+.btn-menu {
+    position: fixed;
+    bottom: 30px;
+    left: 30px;
+    background-color: #D67505; /* Color de fondo */
+    color: white; /* Color del texto */
+    border: 2px solid #D67505; /* Borde del botón */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 20px; /* Tamaño del texto */
+    cursor: pointer; /* Cursor de puntero */
+    text-align: center; /* Alinear el texto al centro */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra del botón */
+}
+
+/* Estilo para el botón al pasar el mouse por encima */
+.btn-menu:hover {
+    background-color: white;
+    color: #D67505;
+    border: 2px solid white;
 }

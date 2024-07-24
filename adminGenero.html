@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos/adminGenero.css">
+</head>
+<body>
+    <header class="header-panelAdmin">
+        <h1 class="titulo-panelAdmin">Lista de Generos Literarios</h2>
+    </header>
+
+    <div class="lista-generos">
+        <h2>Lista de Generos</h2>
+        <ul id="generos-list"></ul>
+    </div>
+
+    <div class="contenedor-form-panelAdmin">
+        <div class="formulario-genero">
+            <h2>Agregar Genero</h2>
+            <form id="form-panelAdmin-autor">
+                <label for="genero">Nombre del genero:</label>
+                <input type="text" id="genero" name="genero" required>
+               
+                <label for="descripcion">Descripcion:</label>
+                <textarea id="descripcion" name="descripcion" required></textarea>
+        
+                <button type="submit">Agregar</button>
+            </form>
+        </div>
+    </div>
+
+    <button id="menuButton" class="btn-menu">Menu</button>
+    <!-- Botón Logout -->
+    <button id="logoutButton" class="btn-logout">Logout</button>
+
+    <script src="adminGenero.js"></script>
+</body>
+</html>

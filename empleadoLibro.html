@@ -3,22 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Panel Empleado</title>
-    <link rel="stylesheet" href="estilos/empleado.css">
+    <title>ADMIN - Libro</title>
+    <link rel="stylesheet" href="estilos/empleadoLibro.css">
 </head>
 <body>
-    <header class="header-panelEmp">
-        <h1 class="titulo-panelEmp">Inventario de Biblioteca Sabiduria</h2>
+    <header class="header-panelAdmin">
+        <h1 class="titulo-panelAdmin">Inventario de Biblioteca Sabiduria</h2>
     </header>
+
     <div id="books-container">
         <h2>Lista de Libros</h2>
         <ul id="books-list"></ul>
     </div>
-    
-    <div class="contenedor-form-panelEmpleado">
+
+    <div class="contenedor-form-panelAdmin">
         <div class="formulario-libro">
             <h2>Agregar un Libro</h2>
-            <form id="form-libro">
+            <form>
                 <label for="titulo">Título:</label>
                 <input type="text" id="titulo" name="titulo" required>
 
@@ -44,9 +45,10 @@
         </div>
     </div>
 
-    <div class="logout-panelEmp" id="logout-panelEmp">
-        Logout
-    </div>
-    <script src="empleado.js"></script>
+    <button id="logoutButton" class="btn-logout">Logout</button>
+
+    <button id="menuButton" class="btn-menu">Menu</button>
+    
+    <script src="empleadoLibro.js"></script>
 </body>
 </html>

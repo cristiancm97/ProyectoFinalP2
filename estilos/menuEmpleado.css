@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-.contenedor-menuAdmin{
+.contenedor-menuEmpleado{
     width: 100%;
     height: 100vh;
     background-image: url(../imagenes/FONDO.png);
@@ -12,7 +12,7 @@ body{
     background-size: cover;
 }
 
-.contenedor-titulo-menuAdmin{
+.contenedor-titulo-menuEmpleado{
     width: 100%;
     height: 150px;
     display: flex;
@@ -20,7 +20,7 @@ body{
     justify-content: center;
 }
 
-.titulo-menuAdmin{
+.titulo-menuEmpleado{
     font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
     padding: 15px 30px;
@@ -30,20 +30,20 @@ body{
     border: 2px solid white;
 }
 
-.grid-menuAdmin {
+.grid-menuEmpleado {
     width: 100%;
     height: calc(100vh - 200px);
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(3,1fr);
 }
 
-.grid-menuAdmin>* {
+.grid-menuEmpleado>* {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.card-menuAdmin{
+.card-menuEmpleado{
     width: 400px;
     height: 500px;
     border: 3px solid white;
@@ -51,39 +51,36 @@ body{
     background-color: #D67505;
 }
 
-.card-menuAdmin:hover{
+.card-menuEmpleado:hover{
     box-shadow: 0px 0px 10px 10px rgb(0, 0, 0, 0.5) ;
     scale: 1.05;
     cursor: pointer;
     transition: all 300ms ease;
 }
 
-.img-card-menuAdmin{
+.img-card-menuEmpleado{
     width: 400px;
     height: 400px;
 }
 
-#img-menuAdmin-1{
-    background-image: url(../imagenes/EMPLEADO.png);
-    border-radius: 30px; 
-}
 
-#img-menuAdmin-2{
+
+#img-menuEmpleado-1{
     background-image: url(../imagenes/LIBRO.png);
     border-radius: 30px; 
 }
 
-#img-menuAdmin-3{
+#img-menuEmpleado-2{
     background-image: url(../imagenes/GENEROS.png);
     border-radius: 30px; 
 }
 
-#img-menuAdmin-4{
+#img-menuEmpleado-3{
     background-image: url(../imagenes/AUTORES.png);
     border-radius: 30px; 
 }
 
-.contenedor-titulo-card-menuAdmin{
+.contenedor-titulo-card-menuEmpleado{
     width: 100%;
     height: 100px;
     display: flex;

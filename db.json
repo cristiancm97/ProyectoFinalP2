@@ -138,5 +138,135 @@
       "anio": "1813",
       "genero": "romance"
     }
+  ],
+  "authors": [
+    {
+      "id": "C3D4",
+      "nombre": "Jane Austen",
+      "fechaNacimiento": "1775-12-16",
+      "biografia": "Jane Austen fue una novelista inglesa conocida por sus obras de ficción romántica, como 'Orgullo y prejuicio'."
+    },
+    {
+      "id": "E5F6",
+      "nombre": "J.K. Rowling",
+      "fechaNacimiento": "1965-07-31",
+      "biografia": "J.K. Rowling es una autora británica, famosa por escribir la serie de libros de Harry Potter."
+    },
+    {
+      "id": "G7H8",
+      "nombre": "Mark Twain",
+      "fechaNacimiento": "1835-11-30",
+      "biografia": "Mark Twain, seudónimo de Samuel Langhorne Clemens, fue un escritor y humorista estadounidense, conocido por 'Las aventuras de Tom Sawyer'."
+    },
+    {
+      "id": "I9J0",
+      "nombre": "George Orwell",
+      "fechaNacimiento": "1903-06-25",
+      "biografia": "George Orwell fue un escritor y periodista británico, autor de obras como '1984' y 'Rebelión en la granja'."
+    },
+    {
+      "id": "K1L2",
+      "nombre": "Virginia Woolf",
+      "fechaNacimiento": "1882-01-25",
+      "biografia": "Virginia Woolf fue una escritora inglesa y una de las figuras más destacadas del modernismo literario del siglo XX."
+    },
+    {
+      "id": "M3N4",
+      "nombre": "Ernest Hemingway",
+      "fechaNacimiento": "1899-07-21",
+      "biografia": "Ernest Hemingway fue un novelista, cuentista y periodista estadounidense, ganador del Premio Nobel de Literatura en 1954."
+    },
+    {
+      "id": "O5P6",
+      "nombre": "Leo Tolstoy",
+      "fechaNacimiento": "1828-09-09",
+      "biografia": "Leo Tolstoy fue un novelista ruso, autor de obras como 'Guerra y paz' y 'Anna Karenina'."
+    },
+    {
+      "id": "Q7R8",
+      "nombre": "F. Scott Fitzgerald",
+      "fechaNacimiento": "1896-09-24",
+      "biografia": "F. Scott Fitzgerald fue un novelista estadounidense, conocido por su obra 'El gran Gatsby'."
+    },
+    {
+      "id": "S9T0",
+      "nombre": "Agatha Christie",
+      "fechaNacimiento": "1890-09-15",
+      "biografia": "Agatha Christie fue una escritora inglesa, conocida por sus novelas de misterio y detectives, como las protagonizadas por Hércules Poirot y Miss Marple."
+    },
+    {
+      "id": "U1V2",
+      "nombre": "Desconocido",
+      "fechaNacimiento": "1950-01-01",
+      "biografia": "-"
+    },
+    {
+      "id": "34fa",
+      "nombre": "Cristian Cruz",
+      "fechaNacimiento": "1997-12-07",
+      "biografia": "Prueba"
+    }
+  ],
+  "genres": [
+    {
+      "id": "A1B2",
+      "genero": "Fantasia",
+      "descripcion": "Un género que incluye elementos mágicos y sobrenaturales, usualmente en mundos imaginarios."
+    },
+    {
+      "id": "C3D4",
+      "genero": "Ciencia ficción",
+      "descripcion": "Un género que explora conceptos futuristas, tecnología avanzada, y el impacto de la ciencia en la sociedad."
+    },
+    {
+      "id": "E5F6",
+      "genero": "Misterio",
+      "descripcion": "Un género centrado en la resolución de un crimen o un enigma, generalmente con un detective como protagonista."
+    },
+    {
+      "id": "G7H8",
+      "genero": "Romance",
+      "descripcion": "Un género que se enfoca en las relaciones amorosas y sus desafíos, con frecuencia concluyendo en un final feliz."
+    },
+    {
+      "id": "I9J0",
+      "genero": "Horror",
+      "descripcion": "Un género diseñado para asustar y provocar una sensación de temor, a menudo con elementos sobrenaturales o monstruos."
+    },
+    {
+      "id": "K1L2",
+      "genero": "Biografia",
+      "descripcion": "Un género que narra la vida de una persona real, describiendo sus experiencias, logros y desafíos."
+    },
+    {
+      "id": "M3N4",
+      "genero": "Historia",
+      "descripcion": "Un género que aborda eventos del pasado, ya sean ficticios o basados en hechos reales, con un enfoque en la precisión histórica."
+    },
+    {
+      "id": "O5P6",
+      "genero": "Aventura",
+      "descripcion": "Un género que relata viajes emocionantes y riesgosos, con protagonistas enfrentando desafíos y explorando lugares desconocidos."
+    },
+    {
+      "id": "Q7R8",
+      "genero": "Thriller",
+      "descripcion": "Un género caracterizado por el suspenso y la tensión, a menudo con tramas que implican peligro y conspiraciones."
+    },
+    {
+      "id": "S9T0",
+      "genero": "Poesia",
+      "descripcion": "Un género literario que se enfoca en la expresión estética de los sentimientos e ideas mediante el uso de un lenguaje estructurado y rítmico."
+    },
+    {
+      "id": "U1V2",
+      "genero": "Desconocido",
+      "descripcion": "Se usa cuando no se conoce el género correspondiente."
+    },
+    {
+      "id": "7b4b",
+      "genero": "Cristian",
+      "descripcion": "Probando"
+    }
   ]
 }

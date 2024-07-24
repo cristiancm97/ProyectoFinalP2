@@ -23,7 +23,7 @@ function verificarUser(username, password) {
                 if (user.role === 'admin') {
                     window.location.href = 'menuAdmin.html'; // Redireccionar a la página del administrador
                 } else if (user.role === 'empleado') {
-                    window.location.href = 'empleado.html'; // Redireccionar a la página del empleado
+                    window.location.href = 'menuEmpleado.html'; // Redireccionar a la página del empleado
                 } else {
                     alert('Rol de usuario desconocido');
                 }
