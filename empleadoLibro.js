@@ -1,6 +1,8 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Llamar a readBook
     readBook();
+    readGenre();
+    readAuthor();
 
     // Botón Enviar
     document.getElementById('form-libro').addEventListener('submit', function(event) {
@@ -8,9 +10,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
         // Obtener los valores de los inputs
         var titulo = document.getElementById('titulo').value;
-        var autor = document.getElementById('autor').value;
+        var autor = document.getElementById('select-autores').value;
         var anio = document.getElementById('anio').value;
-        var genero = document.getElementById('genero').value;
+        var genero = document.getElementById('select-generos').value;
 
         // Guardar los valores en un objeto
         var book = {
@@ -72,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
         books.forEach(book => {
             var li = document.createElement('li');
-            li.textContent = `${book.titulo} - ${book.autor} (${book.anio}) - Género: ${book.genero}`;
+            li.textContent = `${book.titulo} | Autor: ${book.autor} | Año de publicacion: ${book.anio} | Género: ${book.genero}`;
 
             // Crear contenedor para los botones
             var actions = document.createElement('div');
@@ -168,13 +170,87 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-});
+    //--------------------------------------------------------------------------------------------------------
+    function readAuthor() {
+        fetch('http://localhost:3000/authors', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Convierte la respuesta en JSON
+            } else {
+                throw new Error('Error en la solicitud');
+            }
+        })
+        .then(data => {
+            mostrarAuthors(data); // Muestra los libros en la página
+        })
+        .catch(error => {
+            console.error('Error:', error); // Muestra el error en la consola
+        });
+    }
 
-document.getElementById('menuButton').addEventListener('click', function() {
-    window.location.href = 'menuEmpleado.html';
-});
+    function mostrarAuthors(authors) {
+        var select = document.getElementById('select-autores'); // Obtener el elemento select
+        select.innerHTML = ''; // Limpiar las opciones actuales
+    
+        authors.forEach(author => {
+            // Crear un elemento option para cada autor
+            var option = document.createElement('option');
+            option.textContent = author.nombre; // Mostrar el nombre del autor como texto
+    
+            // Añadir la opción al select
+            select.appendChild(option);
+        });
+    }
+    //--------------------------------------------------------------------------------------------------------
+    function readGenre() {
+        fetch('http://localhost:3000/genres', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Convierte la respuesta en JSON
+            } else {
+                throw new Error('Error en la solicitud');
+            }
+        })
+        .then(data => {
+            mostrarGenres(data); // Muestra los libros en la página
+        })
+        .catch(error => {
+            console.error('Error:', error); // Muestra el error en la consola
+        });
+    }
 
-document.getElementById('logoutButton').addEventListener('click', function() {
-    window.location.href = 'login.html';
-    alert("Sesión cerrada");
+    function mostrarGenres(genres) {
+        var select = document.getElementById('select-generos'); // Obtener el elemento select
+        select.innerHTML = ''; // Limpiar las opciones actuales
+    
+        genres.forEach(genre => {
+            // Crear un elemento option para cada autor
+            var option = document.createElement('option');
+            option.textContent = genre.genero; // Mostrar el nombre del autor como texto
+    
+            // Añadir la opción al select
+            select.appendChild(option);
+        });
+    }
+    //--------------------------------------------------------------------------------------------------------
+
+
+    document.getElementById('menuButton').addEventListener('click', function() {
+        window.location.href = 'menuAdmin.html';
+    });
+    
+    document.getElementById('logoutButton').addEventListener('click', function() {
+        window.location.href = 'login.html';
+        alert("Sesión cerrada");
+    }); 
 });

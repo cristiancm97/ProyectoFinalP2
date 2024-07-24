@@ -1,2 +1,81 @@
 Para iniciar el servidor usar el comando 
 npx json-server --watch db.json
+
+El proyecto se inicia desde el archivo Login.html
+
+
+
+    //--------------------------------------------------------------------------------------------------------
+    function readAuthor() {
+        fetch('http://localhost:3000/authors', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Convierte la respuesta en JSON
+            } else {
+                throw new Error('Error en la solicitud');
+            }
+        })
+        .then(data => {
+            mostrarAuthors(data); // Muestra los libros en la página
+        })
+        .catch(error => {
+            console.error('Error:', error); // Muestra el error en la consola
+        });
+    }
+
+    function mostrarAuthors(authors) {
+        var select = document.getElementById('select-autores'); // Obtener el elemento select
+        select.innerHTML = ''; // Limpiar las opciones actuales
+    
+        authors.forEach(author => {
+            // Crear un elemento option para cada autor
+            var option = document.createElement('option');
+            option.value = author.id; // Asignar el id del autor como valor
+            option.textContent = author.nombre; // Mostrar el nombre del autor como texto
+    
+            // Añadir la opción al select
+            select.appendChild(option);
+        });
+    }
+    //--------------------------------------------------------------------------------------------------------
+    function readGenre() {
+        fetch('http://localhost:3000/genres', {
+            method: 'GET',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+        .then(response => {
+            if (response.ok) {
+                return response.json(); // Convierte la respuesta en JSON
+            } else {
+                throw new Error('Error en la solicitud');
+            }
+        })
+        .then(data => {
+            mostrarGenres(data); // Muestra los libros en la página
+        })
+        .catch(error => {
+            console.error('Error:', error); // Muestra el error en la consola
+        });
+    }
+
+    function mostrarGenres(genres) {
+        var select = document.getElementById('select-generos'); // Obtener el elemento select
+        select.innerHTML = ''; // Limpiar las opciones actuales
+    
+        genres.forEach(genre => {
+            // Crear un elemento option para cada autor
+            var option = document.createElement('option');
+            option.value = genre.id; // Asignar el id del autor como valor
+            option.textContent = genre.genero; // Mostrar el nombre del autor como texto
+    
+            // Añadir la opción al select
+            select.appendChild(option);
+        });
+    }
